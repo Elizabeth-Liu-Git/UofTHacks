@@ -1219,6 +1219,11 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
+"@fontsource/league-gothic@^4.5.1":
+  "integrity" "sha512-4hgz0deZmgtEPE7mge+hwQLOnwllnPXwfUuYV8DO3Zws4EQr+1QWXCF8TS1ArPxikIDSY42keWn7DJKlQC8pnA=="
+  "resolved" "https://registry.npmjs.org/@fontsource/league-gothic/-/league-gothic-4.5.1.tgz"
+  "version" "4.5.1"
+
 "@fontsource/roboto@^4.5.3":
   "integrity" "sha512-NUvBTj332dFRdiVkLlavXbDGoD2zyyeGYmMyrXOnctg/3e4pq95+rJgNfUP+k4v8UBk2L1aomGw9dDjbRdAmTg=="
   "resolved" "https://registry.npmjs.org/@fontsource/roboto/-/roboto-4.5.3.tgz"
