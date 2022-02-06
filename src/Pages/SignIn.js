@@ -1,10 +1,10 @@
 import React from "react";
 
-const Input = () => {
+const SignIn = () => {
   return (
   <div>
     <div>Sign In</div>
   </div>);
 };
 
-export default Input;
+export default SignIn;

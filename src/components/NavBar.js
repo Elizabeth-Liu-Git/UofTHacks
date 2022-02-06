@@ -11,6 +11,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import SwapHorizontalCircleIcon from '@mui/icons-material/SwapHorizontalCircle';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { Link } from 'react-router-dom';
 
 export default function FixedBottomNavigation() {
   const [value, setValue] = React.useState(0);
@@ -32,21 +33,26 @@ return (
         label="Home"
         value="home"
         icon={<HomeIcon />}
+        component={Link} to='/'
       />
       <BottomNavigationAction
         label="Swap"
         value="swap"
         icon={<SwapHorizontalCircleIcon />}
+        component={Link} to='/swap'
       />
       <BottomNavigationAction
         label="Cart"
         value="cart"
         icon={<ShoppingCartIcon />}
+        component={Link} to='/cart'
       />
       <BottomNavigationAction 
       label="Profile" 
       value="profile" 
-      icon={<AccountCircleIcon />} />
+      icon={<AccountCircleIcon />} 
+      component={Link} to='/profile'
+      />
       </BottomNavigation>
     </Paper>
   </Box>
