@@ -6,6 +6,7 @@ import NavBar from './../components/NavBar.js'
 function Home() {
   return (
       <div>
+      <Header />
       <Search />
       <Map />
       <NavBar />
