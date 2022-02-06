@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
+import SearchBar from './MapSearchBar.js'
+import Paper from '@mui/material/Paper';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -13,7 +15,7 @@ class SimpleMap extends Component {
   };
 
   state = {
-    divcontainer:false,
+    divcontainer:true,
   }
 
   render() {
@@ -24,7 +26,9 @@ class SimpleMap extends Component {
     const x = this.state.divcontainer;
     return (
       <div>
-        <button onClick={Handlechange}>{x?'Hide':'Show'}</button>
+        <Paper sx={{ width: 400 }} elevation={15}>
+        <SearchBar color='secondary'/>
+        </Paper>
         {
           x && <div style={{ height: '80vh', width: '80%'}}>
           <GoogleMapReact
