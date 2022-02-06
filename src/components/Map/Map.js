@@ -26,7 +26,7 @@ class SimpleMap extends Component {
       <div>
         <button onClick={Handlechange}>{x?'Hide':'Show'}</button>
         {
-          x && <div style={{ height: '100vh', width: '100%' }}>
+          x && <div style={{ height: '80vh', width: '80%'}}>
           <GoogleMapReact
             bootstrapURLKeys={{ key: "AIzaSyBb-O1yrZ0z3b5rnp8N3XSZU2nQeDydVEk" }}
             defaultCenter={this.props.center}

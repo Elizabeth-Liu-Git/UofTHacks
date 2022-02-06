@@ -1,6 +1,6 @@
 import Header from './../components/Header/Header.js'
 import Search from './../components/Search/Search.js'
-import Map from './../components/Map/Map.js'
+import MapContainer from './../components/MapContainer.js'
 import NavBar from './../components/NavBar.js'
 
 function Home() {
@@ -8,7 +8,7 @@ function Home() {
       <div>
       <Header />
       <Search />
-      <Map />
+      <MapContainer />
       <NavBar />
       </div>
   );
